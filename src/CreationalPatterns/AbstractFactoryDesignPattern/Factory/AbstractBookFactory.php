@@ -8,9 +8,17 @@
 
 namespace Sample\CreationalPatterns\AbstractFactoryDesignPattern\Factory;
 
-abstract class AbstractBookFactory
-{
-    public abstract function makePHPBook();
+use Sample\CreationalPatterns\AbstractFactoryDesignPattern\AbstractBook\AbstractMySQLBook;
+use Sample\CreationalPatterns\AbstractFactoryDesignPattern\AbstractBook\AbstractPHPBook;
 
-    public abstract function makeMySQLBook();
+abstract class AbstractBookFactory {
+  /**
+   * @return AbstractPHPBook
+   */
+  public abstract function makePHPBook() : AbstractPHPBook;
+
+  /**
+   * @return AbstractMySQLBook
+   */
+  public abstract function makeMySQLBook() : AbstractMySQLBook;
 }
