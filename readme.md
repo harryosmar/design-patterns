@@ -1,4 +1,4 @@
-# Sample phpunit test using mockery
+# Design Patterns Documentation By Code Examples
 
 ## Links
 * [Design Patterns](https://github.com/harryosmar/design-patterns/tree/master/src/)
