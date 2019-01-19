@@ -14,11 +14,11 @@ class BuilderDesignPatternTest extends Base {
    */
   public function shouldBeAbleToGenerateHtmlPage() {
     $htmlPageBuilder = new HTMLPageBuilder();
-    $htmlPageBuilder->setTitle('Testing the HTMLPage');
-    $htmlPageBuilder->setHeading('Heading');
-    $htmlPageBuilder->setText('text1');
-    $htmlPageBuilder->setText('text2');
-    $htmlPageBuilder->setText('text3');
+    $htmlPageBuilder->setTitle('Testing the HTMLPage')
+        ->setHeading('Heading')
+        ->setText('text1')
+        ->setText('text2')
+        ->setText('text3');
 
     $htmlPage = $htmlPageBuilder->getPage();
     $htmlPage->formatPage();
