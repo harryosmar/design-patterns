@@ -10,8 +10,11 @@
         "php": ">=7.0"
     },
     "require-dev": {
-        "mockery/mockery": "^0.9",
-        "phpunit/phpunit": "~5.7"
+        "phpdocumentor/phpdocumentor": "2.9.0",
+        "phpunit/phpunit": "^7.5",
+        "mockery/mockery": "^1.2",
+        "jms/serializer": "1.7",
+        "jms/metadata": "~1.1"
     },
     "autoload": {
         "psr-4": {
@@ -24,6 +27,7 @@
         }
     },
     "scripts": {
-        "test": "./vendor/bin/phpunit -c phpunit.xml --coverage-text --coverage-clover=coverage.clover --debug"
+        "test": "./vendor/bin/phpunit -c phpunit.xml --coverage-text --coverage-clover=coverage.clover --debug",
+        "doc": "./vendor/bin/phpdoc"
     }
 }

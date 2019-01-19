@@ -4,6 +4,7 @@
 * [Design Patterns](https://github.com/harryosmar/design-patterns/tree/master/src/)
   * [Creational Patterns](https://github.com/harryosmar/design-patterns/tree/master/src/CreationalPatterns)
     * [Abstract Factory Design Pattern](https://github.com/harryosmar/design-patterns/tree/master/src/CreationalPatterns/AbstractFactoryDesignPattern)
+    * [BuilderDesignPattern](https://github.com/harryosmar/design-patterns/tree/master/src/CreationalPatterns/BuilderDesignPattern)
 
 
 ## How to set up

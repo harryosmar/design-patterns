@@ -16,7 +16,7 @@ class OReillyBookFactory extends AbstractBookFactory {
   /**
    * @return AbstractPHPBook
    */
-  public function makePHPBook() : AbstractPHPBook{
+  public function makePHPBook() : AbstractPHPBook {
     return new OReillyPHPBook;
   }
 
