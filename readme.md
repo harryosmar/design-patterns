@@ -26,6 +26,12 @@ composer install
 composer test
 ```
 
+## How to generate `phpdoc`
+
+```
+composer doc
+```
+
 ## Others Links
 
 - https://sourcemaking.com/design_patterns
